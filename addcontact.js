@@ -49,7 +49,7 @@ console.log(fullname,title,email,workphone,mobilephone,twitterid,uniqueid,addres
 
 async function listAllTickets(){
     let url = 'https://newaccount1613464036437.freshdesk.com/api/v2/contacts'
-    let apiKey =btoa("2o6DY6yYNl1sz9S3ZUeD");
+    let apiKey =btoa("2xxxo6DY6yYNl1sz9S3ZUeD");
     let response = await fetch(url,{
        headers:{
         "Authorization" : apiKey,
@@ -76,9 +76,8 @@ let fields = {
  async function addContact(contact){
    
         let url = 'https://newaccount1613464036437.freshdesk.com/api/v2/contacts'
-        //let apiKey =btoa("2o6DY6yYNl1sz9S3ZUeD");
         let username = "aniketdevarkar98@gmail.com";
-       let password =  "Hackathon@1";
+       let password =  "XXXXXXXXXx";
        let response= await fetch(url, {
            method:'POST', 
         headers: {
